@@ -28,7 +28,7 @@ header button{
     border-radius: 18px;
    float: right;
     padding: 7px;
-    margin-right: 200px;
+    margin-right: 100px;
     width: 120px;
     border: 1px;
     box-shadow: 2px 2px rgb(202, 200, 200);
@@ -71,8 +71,9 @@ h2, h3{
 }
 
  .content img{
-    width: 100%;
+    width: 700px;
     height: 400px;
+    margin-right: 50px;
  }
 /*style for the second container*/
  .content2{
@@ -197,7 +198,7 @@ h2, h3{
     text-align: center;
     padding: 50px;
     font-weight: bold;
-    margin-left: 350px;
+    margin-left: 300px;
     margin-bottom: -185px;
     z-index: 1;
     position: absolute;
@@ -324,16 +325,226 @@ display: flex;
     float: right;
     font-size: 10px;
 }
-@media screen and(max-width: 720px) {
-    .content{
-        flex-direction: column;
+
+
+@media screen  and (min-width: 451px) and (max-width: 1200px) {
+    main{
+        
+        
+        margin: 5px;
+        width: 100%;
     }
+
+    body{
+        
+        background-image: url('bg-hero-mobile.svg');
+        width: 100%;
+        font-size: 13px;
+       
+    }
+
+    header img{
+        width: 30%;
+        font-family: 'poppins';
+    }
+    header button{
+       font-size: 10px;
+        padding: 4px;
+        margin-right: 10px;
+        width: 80px;
+       
+    }
+    .content{
+        height: 400px;
+        margin-top: 20px;
+        width: 70%;
+        
+    }
+    .section1{
+        width: 100%;
+        margin-right: 20px;
+        justify-content: center;
+        margin-top: 20px;
+        height: 250px;
+        text-align: center;
+        
+    }
+    .section1 h2{
+        font-size: 20px;
+        font-family: 'poppins';
+    }
+    .section1 p{
+        font-size: 12px;
+    }
+    
+    .section1 button{
+       
+        margin-top: 15px;
+        width: 150px;
+        border: none;
+    }
+    
+     .content img{
+        width: 100%;
+        height: 250px;
+     }
+     .content2{
+        
+        margin-top: 20px;
+        width: 100%;
+        font-size: 10px;
+        height: 350px;
+    }
+    .section2{
+        width: 50%;
+        margin-right: 5px;
+        justify-content: center;
+        margin-top: 20px;
+        height: 250px;
+        text-align: center;
+    }
+    .section2 h3{
+        font-size: 20px;
+        font-family: 'poppins';
+    }
+    .section2 p{
+        font-size: 15px;
+    }
+    .content2 img{
+        width: 100%;
+        height: 250px;
+     }
+
+     .content3{
+        
+        margin-top: 80px;
+        width: 100%;
+        font-size: 10px;
+        height: 360px;
+        
+    }
+    .section3{
+        padding: 15px;
+        width: 60%;
+        margin: 0 auto;
+        justify-content: center;
+        margin-top: 20px;
+        height: 200px;
+        text-align: center;
+    }
+    .section3 h3{
+        font-size: 20px;
+        font-family: 'poppins';
+    }
+    .section3 p{
+        font-size: 15px;
+    }
+    .content3 img{
+        width: 80%;
+        height: 200px;
+     }
+     .content4{
+        
+        margin-top: 20px;
+        width: 100%;
+        font-size: 10px;
+        height: 400px;
+    }
+    .section4{
+        width: 50%;
+        margin-right: 5px;
+        justify-content: center;
+        margin-top: 20px;
+        height: 250px;
+        text-align: center;
+    }
+    .section4 h3{
+        font-size: 20px;
+        font-family: 'poppins';
+    }
+    .section4 p{
+        font-size: 15px;
+    }
+    .content4 img{
+        width: 100%;
+        height: 250px;
+     }
+
+     .content5{
+        
+        width: 35%;
+        
+         margin-left: 155px; 
+       
+    }
+    .content5 button{
+        
+        padding: 10px;
+        margin-top: 20px;
+        width: 150px;
+        
+    }
+    /*footer*/
+    .fcontainer{
+       flex-direction: column;
+        font-size: 15px;
+        
+        height: 700px;
+        padding-top: 150px;
+        padding-left: 50px;
+        padding-right: 50px;
+        
+        
+    }
+     img{
+        width: 50%;
+    }
+    .fcontent{
+       flex-direction: column;
+       
+    }
+    
+    .item1{
+        width: 100%;
+        
+        margin-top: 10px;
+    } 
+    .item2{
+        margin: 0;
+        width: 100%;
+        padding: 5px;
+        padding-bottom: 10px;
+    }
+    .item3{
+        width: 100%;
+        align-items: center;
+        padding: 5px;
+        padding-bottom: 10px;
+        margin: 0;
+        margin-bottom: 40px;
+       
+    }
+    .item4{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+    .socials{
+        width: 100%;
+       padding: 0;
+       margin: 0;
+    }
+    .item5{
+        margin-top: 10px;
+        text-align: center;
+    }
+
 }
 /*phone style*/
 @media screen  and (max-width: 450px) {
     main{
         flex-direction: column;
-        flex-direction: column-reverse;
         padding: 2px;
         margin: 5px;
         width: auto;
@@ -369,7 +580,7 @@ display: flex;
         margin-top: 20px;
         height: 250px;
         text-align: center;
-        flex-direction: row-reverse;
+        
     }
     .section1 h2{
         font-size: 20px;
@@ -392,7 +603,7 @@ display: flex;
      }
      .content2{
         flex-direction: column;
-         flex-direction: column-reverse;
+        flex-direction: column-reverse;
         margin-top: 20px;
         width: 100%;
         font-size: 10px;
