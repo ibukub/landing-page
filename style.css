@@ -16,15 +16,13 @@ body{
     max-width: 1440px;
 }
 
-   
-
 header img{
     width: 10%;
     font-family: 'poppins';
     position: relative;
     animation: animatetop 2.0s;
 }
-@keyframes animatertop{
+@keyframes animatetop{
     0% {
         top: -300px;
         opacity: 0;
@@ -46,7 +44,7 @@ header button{
     position: relative;
     animation: animatetop 2.0s;
 }
-@keyframes animatertop{
+@keyframes animatetop{
     0% {
         top: -300px;
         opacity: 0;
