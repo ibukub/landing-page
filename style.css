@@ -21,8 +21,19 @@ body{
 header img{
     width: 10%;
     font-family: 'poppins';
+    position: relative;
+    animation: animatetop 2.0s;
 }
-
+@keyframes animatertop{
+    0% {
+        top: -300px;
+        opacity: 0;
+    }
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+}
 header button{
     background-color: rgb(250, 245, 245);
     border-radius: 18px;
@@ -32,6 +43,18 @@ header button{
     width: 120px;
     border: 1px;
     box-shadow: 2px 2px rgb(202, 200, 200);
+    position: relative;
+    animation: animatetop 2.0s;
+}
+@keyframes animatertop{
+    0% {
+        top: -300px;
+        opacity: 0;
+    }
+    100% {
+        top: 0;
+        opacity: 1;
+    }
 }
 h2, h3{
     color: hsl(192, 100%, 9%);
@@ -104,6 +127,18 @@ h2, h3{
     border-radius: 10px;
     box-shadow: 0 0 5px 5px rgb(241, 235, 235);
     height: 350px;
+    position: relative;
+    animation: animateright 2.0s;
+}
+@keyframes animateright{
+    0% {
+        right: -300px;
+        opacity: 0;
+    }
+    100% {
+        right: 0;
+        opacity: 1;
+    }
 }
 .section2{
     width: auto;
@@ -140,6 +175,18 @@ h2, h3{
     border-radius: 10px;
     box-shadow: 0 0 5px 5px rgb(241, 235, 235);
     height: 350px;
+    position: relative;
+    animation: animateright 2.0s;
+}
+@keyframes animateright{
+    0% {
+        right: -300px;
+        opacity: 0;
+    }
+    100% {
+        right: 0;
+        opacity: 1;
+    }
 }
 .section3{
     width: auto;
@@ -179,6 +226,18 @@ h2, h3{
    border-radius: 10px;
     box-shadow: 0 0 5px 5px rgb(241, 235, 235);
     height: 350px;
+    position: relative;
+    animation: animateright 2.0s;
+}
+@keyframes animateright{
+    0% {
+        right: -300px;
+        opacity: 0;
+    }
+    100% {
+        right: 0;
+        opacity: 1;
+    }
 }
 .section4{
     width: auto;
