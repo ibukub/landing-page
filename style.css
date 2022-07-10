@@ -32,6 +32,7 @@ header img{
         opacity: 1;
     }
 }
+
 header button{
     background-color: rgb(250, 245, 245);
     border-radius: 18px;
@@ -44,6 +45,7 @@ header button{
     position: relative;
     animation: animatetop 2.0s;
 }
+
 @keyframes animatetop{
     0% {
         top: -300px;
