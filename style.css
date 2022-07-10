@@ -43,7 +43,18 @@ h2, h3{
     margin-left: auto;
     margin-right: auto;
     align-content: center;
-    
+    position: relative;
+    animation: animateright 0.4s;
+}
+@keyframes animateright{
+    0% {
+        right: -300px;
+        opacity: 0;
+    }
+    100% {
+        right: 0;
+        opacity: 1;
+    }
 }
 .section1{
     width: 35%;
@@ -52,6 +63,10 @@ h2, h3{
     margin-top: 40px;
     height: 400px;
 }
+.section1:hover{
+    transform: scale(1.1);
+}
+
 .section1 h2{
     font-size: 30px;
     font-family: 'poppins';
@@ -74,6 +89,9 @@ h2, h3{
     width: 700px;
     height: 400px;
     margin-right: 50px;
+ }
+.content img:hover{
+    transform: scale(1.1);
  }
 /*style for the second container*/
  .content2{
